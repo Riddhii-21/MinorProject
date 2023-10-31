@@ -80,3 +80,122 @@
     text-align: center;
 
 }
+
+
+
+/*jobs section css*/
+
+.flex-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.jobs-container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,35rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.jobs-container .box-container .box{
+    background-color: var(--white);
+    border-radius: .5rem;
+    border: var(--border);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    overflow-x: hidden;
+}
+  
+.jobs-container .box-container .box .company{
+     display: flex;
+     align-items: center;
+     gap:1.5rem;
+     margin-bottom: 1.5rem;
+}
+ 
+
+.jobs-container .box-container .box .company img{
+    height: 6rem;
+    width: 6rem;
+    object-fit: contain;
+}
+
+
+.jobs-container .box-container .box .company h3{
+    font-size: 1.8rem;
+    color: var(--black);
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    text-transform: capitalize;
+    padding-bottom: .5rem;
+}
+
+.jobs-container .box-container .box .company p{
+    color: var(--light-color);
+    font-size: 1.6rem;
+}   
+
+.jobs-container .box-container .box .jobs-title{
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.jobs-container .box-container .box .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.2rem 0;
+}
+
+.jobs-container .box-container .box .location{
+    padding:.7rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+
+
+.jobs-container .box-container .box .location i{
+    margin-right: .3rem;
+    color: var(--main-color);
+}
+
+.jobs-container .box-container .box .tags p{
+    padding: 1.2rem ;
+    border-radius: .5rem;
+    border-color: var(--light-bg);
+    font-size: 1.6rem;
+    color:var(--light-color)
+}
+
+.jobs-container .box-container .box .tags p i{
+    margin-right:.5rem ;
+    color: var(--black);
+
+}
+
+.jobs-container .box-container .box .fa-heart{
+    height: 4rem;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    color: var(--light-color);
+    font-size: 1.8rem;
+    cursor: pointer;
+    width: 4.5rem;
+    line-height: 4rem;
+}
+
+
+.jobs-container .box-container .box .fa-heart:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/*jobs section end here css*/
